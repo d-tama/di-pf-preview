@@ -1,0 +1,35 @@
+@media screen and (max-width: 1200px) {
+  .top-img {
+    height: 50svh;
+  }
+  .top-img::before {
+    height: 50svh;
+  }
+  .top-name {
+    height: 50svh;
+  }
+  .top-name div img {
+    width: 60vw;
+  }
+  .about-wrapper {
+    width: 80%;
+    max-width: 30rem;
+  }
+  .detail-wrapper {
+    min-width: 70%;
+  }
+  .works-category {
+    max-width: 75%;
+  }
+  .item-wrapper {
+    grid-template-columns: repeat(auto-fit, max(9rem, 22vw));
+    grid-row-gap: max(2rem, 2vw);
+    grid-column-gap: 0;
+  }
+  .item {
+    width: max(9rem, 22vw);
+  }
+  .item .item-img {
+    height: max(9rem, 22vw);
+  }
+}/*# sourceMappingURL=tablet_top.css.map */

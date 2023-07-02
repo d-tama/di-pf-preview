@@ -1,0 +1,55 @@
+@import "_mixin";
+
+@media screen and (max-width:1200px) {
+
+    .top-img {
+        height: 50svh;
+
+        &::before {
+            height: 50svh;
+        }
+    }
+
+    .top-name {
+        height: 50svh;
+        div{
+            img {
+                width: 60vw;
+            }
+        }
+    }
+
+    .about-wrapper {
+        width: 80%;
+        max-width: 30rem;
+    }
+
+    .detail-wrapper{
+        min-width: 70%;
+    }
+
+    .works-category {
+        max-width: 75%;
+    }
+
+    .item-wrapper {
+        grid-template-columns: repeat(auto-fit, max(9rem, 22vw));
+        grid-row-gap: max(2rem, 2vw);
+        grid-column-gap: 0;
+    }
+
+    .item {
+        // margin: max(1rem,1vw) 0;
+        width: max(9rem, 22vw);
+
+        .item-img {
+            height: max(9rem, 22vw);
+
+            img {}
+        }
+
+        .work-name {}
+
+
+    }
+}

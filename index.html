@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ja" id=>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./common/css/reset.css">
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="./common/css/style.css">
+    <link rel="stylesheet" href="./common/css/tablet_top.css">
+    <link rel="stylesheet" href="./common/css/sp_top.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- <script src='https://cdn.jsdelivr.net/gh/snd-lib/snd-lib@v1.1.2/dist/browser/snd.js?kit=01'></script> -->
+    <script src="./common/js/howler.min.js"></script>
+    <link rel="icon" href="./common/image/favicon.ico">
+    <link rel="apple-touch-icon" href="./common/image/favicon.ico" sizes="180x180">
+</head>
+
+<body id="content" class="loading-scroll">
+
+    <!-- ローディング画面 -->
+    <div id="loading">
+        <div class="loader">Loading...</div>
+        <span class="load-text">Now Loading…</span>
+    </div>
+    <!--独自のスクロールバー-->
+    <div class="scroll" id="target">
+        <div id="scrollbar-container" id="target">
+            <div id="scrollbar-track">
+                <div id="scrollbar-thumb"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ミュートボタン -->
+    <div class="audio_wrap">
+        <div class="audio_button"></div>
+    </div>
+    <!-- <audio id="audio" src="./common/sound/VSQSE_1189_wave_35.mp3" loop></audio> -->
+
+
+    <div class="hamburger-menu none">
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+
+    <nav>
+        <img src="./common/image/menu-flour.png" alt="" class="menu-flour">
+        <ul class="gnav-navi-1">
+            <li class="nav-item menu-show "><span class="nav-item-in"><a href="#"><span>TOP</span></a></span></li>
+            <li class="nav-item menu-show"><span class="nav-item-in"><a href="#about"><span>ABOUT</span></a></span></li>
+            <li class="nav-item menu-show"><span class="nav-item-in"><a href="#works"><span>WORKS</span></a></span>
+                <ul class="works-nav">
+                    <li class="works-nav-item"><a href="#design"><span>デザイン</span></a></li>
+                    <span class="nav-partition">/</span>
+                    <li class="works-nav-item"><a href="#3dcg"
+                            style="font-family: 'Montserrat', sans-serif;"><span>3DCG</span></a></li>
+                    <span class="nav-partition">/</span>
+                    <li class="works-nav-item"><a href="#e"><span>絵</span></a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <script>
+
+    </script>
+
+
+    <!-- ヘッダー -->
+    <header id="fixed-header">
+        <a href="./index.html">
+            <img src="./common/image/daishiito.svg" alt="">
+        </a>
+    </header>
+
+
+    <div class="all">
+        <div class="top-img"></div>
+
+        <div class="back-color-wrapper">
+            <div class="top-name">
+                <div>
+                    <img src="./common/image/daishiito.svg" alt="">
+                    <span>PORTFOLIO</span>
+                </div>
+            </div>
+            <div class="scrolldown1">
+            </div>
+
+            <div class="about target-section" id="about">
+                <div class="sub-title">
+                    <h1><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">
+                                ABOUT
+                            </span></span></h1>
+                </div>
+                <script>
+
+
+
+                </script>
+
+                <div class="about-wrapper snd__tap">
+                    <div class="name-wrapper">
+                        <span class="name"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">
+                                    伊藤 代士
+                                </span></span></span>
+                        <span class="english-name "><span class="bgextend bgLRextendTrigger"><span
+                                    class="bgappearTrigger">
+                                    Daishi Ito
+                                </span></span></span>
+                    </div>
+                    <div class="detail-wrapper">
+                        <div>
+                            <h3><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">
+                                        私について
+                                    </span></span></h3>
+                            <p><span class="smoothText"><span class="text-show">
+                                        こんにちは、伊藤代士と申します。ポートフォリオを見てくださりありがとうございます。<br>
+                                        現在私は、2021年9月に入社した会社でデザイナーとして働いております。<br>
+                                        主にWebに関しての修正や制作をしています。会社以外で趣味で絵を書いたり、3DCGの作品を作ったりもしています。<br>
+                                        このポートフォリオでは、デザインだけでなく、絵や3DCGも含めた制作物を載せております。お気軽にご覧下さい。
+                                    </span></span></p>
+                        </div>
+                        <div>
+                            <h3><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">
+                                        使用ソフト
+                                    </span></span></h3>
+                            <p class="soft-language"><span class="smoothText"><span class="text-show">
+                                        <span>Photoshop</span>
+                                        <span>illustrator</span>
+                                        <span>Blender</span>
+                                        <span>Substance Painter</span>
+                                        <span>Visual Studio Code</span>
+                                        <span>Dreamweaver</span>
+                                    </span></span></p>
+                        </div>
+                        <div>
+                            <h3><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">
+                                        使用言語
+                                    </span></span></h3>
+                            <p class="soft-language"><span class="smoothText"><span class="text-show">
+                                        <span>HTML</span>
+                                        <span>CSS</span>
+                                        <span>Sass</span>
+                                        <span>Javascript(コピペで使う程度)</span>
+                                        <span>jQuery</span>
+                                    </span></span></p>
+                        </div>
+                        <div>
+                            <h3><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">
+                                        連絡先
+                                    </span></span></h3>
+                            <p class="soft-language"><span class="smoothText"><span class="text-show">
+                                        <span>
+                                            <a href="mailto:todaishi0620@gmail.com">
+                                                <img src="./common/image/mail.svg" alt="">
+                                                soramidoressingu@gmail.com
+                                            </a>
+                                        </span>
+                                    </span></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="works" id="works">
+                <div class="sub-title">
+                    <h1><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">
+                                WORKS
+                            </span></span></h1>
+                </div>
+                <div class="works-category">
+                    <h4 id="design"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">
+                                デザイン
+                            </span></span></h4>
+                    <div class="item-wrapper">
+                        <!-- work -->
+                        <!-- buttonのdata-modalとモーダルのidを一致させる -->
+                        <button class="item openModal" data-modal="Portfolio-site">
+                            <div class="item-img">
+                                <img src="./works/design/Portfolio-site/item01.png" alt="">
+                                <span class="production-date"><span>2023/6/12</span></span>
+                            </div>
+                            <span class="work-name">ポートフォリオサイト</span>
+                        </button>
+                        <div id="Portfolio-site" class="modal">
+                            <div class="modal-wrapper">
+                                <div class="modal-content">
+                                    <iframe src="./works/design/Portfolio-site/index.html" loading="lazy"></iframe>
+                                </div>
+                                <span class="close">CLOSE</span>
+                            </div>
+                        </div>
+
+                        <!-- work -->
+                        <button class="item openModal" data-modal="umapan">
+                            <div class="item-img">
+                                <img src="./works/design/umapan/item01.png" alt="">
+                                <span class="production-date"><span>2023/4</span></span>
+                            </div>
+                            <span class="work-name">架空のトースターのサイト</span>
+                        </button>
+                        <div id="umapan" class="modal">
+                            <div class="modal-wrapper">
+                                <div class="modal-content">
+                                    <iframe src="./works/design/umapan/index.html" loading="lazy"></iframe>
+                                </div>
+                                <span class="close">CLOSE</span>
+                            </div>
+                        </div>
+
+                        <!-- work -->
+                        <button class="item openModal" data-modal="syouzikiya-dishwasher">
+                            <div class="item-img">
+                                <img src="./works/design/syouzikiya-dishwasher/item01.png" alt="">
+                                <span class="production-date"><span>2023/03/26</span></span>
+                            </div>
+                            <span class="work-name">正直屋 食洗器LP</span>
+                        </button>
+                        <div id="syouzikiya-dishwasher" class="modal">
+                            <div class="modal-wrapper">
+                                <div class="modal-content">
+                                    <iframe src="./works/design/syouzikiya-dishwasher/index.html"
+                                        loading="lazy"></iframe>
+                                </div>
+                                <span class="close">CLOSE</span>
+                            </div>
+                        </div>
+
+                        <!-- work -->
+                        <button class="item openModal" data-modal="itotomato">
+                            <div class="item-img">
+                                <img src="./works/design/itotomato/item01.png" alt="">
+                                <span class="production-date"><span>2021/7/15</span></span>
+                            </div>
+                            <span class="work-name">架空トマト農家のサイト</span>
+                        </button>
+                        <div id="itotomato" class="modal">
+                            <div class="modal-wrapper">
+                                <div class="modal-content">
+                                    <iframe src="./works/design/itotomato/index.html" loading="lazy"></iframe>
+                                </div>
+                                <span class="close">CLOSE</span>
+                            </div>
+                        </div>
+
+                        <!-- work -->
+                        <button class="item openModal" data-modal="nu-ko">
+                            <div class="item-img">
+                                <img src="./works/design/nu-ko/item01.png" alt="">
+                                <span class="production-date"><span>2021/4/12</span></span>
+                            </div>
+                            <span class="work-name">架空の猫型ロボットのサイト</span>
+                        </button>
+                        <div id="nu-ko" class="modal">
+                            <div class="modal-wrapper">
+                                <div class="modal-content">
+                                    <iframe src="./works/design/nu-ko/index.html" loading="lazy"></iframe>
+                                </div>
+                                <span class="close">CLOSE</span>
+                            </div>
+                        </div>
+
+                        <!-- work -->
+                        <button class="item openModal" data-modal="banner">
+                            <div class="item-img">
+                                <img src="./works/design/banner/item01.png" alt="">
+                                <span class="production-date"><span>2021/7</span></span>
+                            </div>
+                            <span class="work-name">バナー</span>
+                        </button>
+                        <div id="banner" class="modal">
+                            <div class="modal-wrapper">
+                                <div class="modal-content">
+                                    <iframe src="./works/design/banner/index.html" loading="lazy"></iframe>
+                                </div>
+                                <span class="close">CLOSE</span>
+                            </div>
+                        </div>
+
+                        <!-- work -->
+                        <button class="item openModal" data-modal="meguritomato_logo">
+                            <div class="item-img">
+                                <img src="./works/design/meguritomato_logo/item01.png" alt="">
+                                <span class="production-date"><span>2023/5/14</span></span>
+                            </div>
+                            <span class="work-name">株式会社めぐりとまとのロゴ</span>
+                        </button>
+                        <div id="meguritomato_logo" class="modal">
+                            <div class="modal-wrapper">
+                                <div class="modal-content">
+                                    <iframe src="./works/design/meguritomato_logo/index.html" loading="lazy"></iframe>
+                                </div>
+                                <span class="close">CLOSE</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="works-category">
+                    <h4 id="3dcg"><span class="bgextend bgLRextendTrigger"
+                            style="font-family: 'Montserrat', sans-serif;"><span class="bgappearTrigger">
+                                3DCG
+                            </span></span></h4>
+                    <div class="item-wrapper">
+
+                        <!-- work -->
+                        <button class="item openModal" data-modal="syokubutuen">
+                            <div class="item-img">
+                                <img src="./works/cg/syokubutuen/item01.png" alt="">
+                                <span class="production-date"><span>2021/2/5</span></span>
+                            </div>
+                            <span class="work-name">植物園</span>
+                        </button>
+                        <div id="syokubutuen" class="modal">
+                            <div class="modal-wrapper">
+                                <div class="modal-content">
+                                    <iframe src="./works/cg/syokubutuen/index.html" loading="lazy"></iframe>
+                                </div>
+                                <span class="close">CLOSE</span>
+                            </div>
+                        </div>
+
+                        <!-- work -->
+                        <button class="item openModal" data-modal="low-poly-character">
+                            <div class="item-img">
+                                <img src="./works/cg/low-poly-character/item01.png" alt="">
+                                <span class="production-date"><span>2021/2</span></span>
+                            </div>
+                            <span class="work-name">ローポリゴンキャラクター</span>
+                        </button>
+                        <div id="low-poly-character" class="modal">
+                            <div class="modal-wrapper">
+                                <div class="modal-content">
+                                    <iframe src="./works/cg/low-poly-character/index.html" loading="lazy"></iframe>
+                                </div>
+                                <span class="close">CLOSE</span>
+                            </div>
+                        </div>
+
+                        <!-- work -->
+                        <button class="item openModal" data-modal="effect">
+                            <div class="item-img">
+                                <img src="./works/cg/effect/item01.png" alt="">
+                                <span class="production-date"><span>2021/2/9</span></span>
+                            </div>
+                            <span class="work-name">エフェクト</span>
+                        </button>
+                        <div id="effect" class="modal">
+                            <div class="modal-wrapper">
+                                <div class="modal-content">
+                                    <iframe src="./works/cg/effect/index.html" loading="lazy"></iframe>
+                                </div>
+                                <span class="close">CLOSE</span>
+                            </div>
+                        </div>
+
+                        <!-- work -->
+                        <button class="item openModal" data-modal="situgaiki">
+                            <div class="item-img">
+                                <img src="./works/cg/situgaiki/item01.png" alt="">
+                                <span class="production-date"><span>2021/1/6</span></span>
+                            </div>
+                            <span class="work-name">室外機（習作）</span>
+                        </button>
+                        <div id="situgaiki" class="modal">
+                            <div class="modal-wrapper">
+                                <div class="modal-content">
+                                    <iframe src="./works/cg/situgaiki/index.html" loading="lazy"></iframe>
+                                </div>
+                                <span class="close">CLOSE</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="works-category">
+                    <h4 id="e"><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">
+                                絵
+                            </span></span></h4>
+                    <div class="item-wrapper">
+                                                <!-- work -->
+                                                <button class="item openModal" data-modal="gyuukotu01">
+                                                    <div class="item-img">
+                                                        <img src="./works/e/gyuukotu01/item01.png" alt="">
+                                                        <span class="production-date"><span>2022/9/29</span></span>
+                                                    </div>
+                                                    <span class="work-name">牛骨1</span>
+                                                </button>
+                                                <div id="gyuukotu01" class="modal">
+                                                    <div class="modal-wrapper">
+                                                        <div class="modal-content">
+                                                            <iframe src="./works/e/gyuukotu01/index.html" loading="lazy"></iframe>
+                                                        </div>
+                                                        <span class="close">CLOSE</span>
+                                                    </div>
+                                                </div>
+                                                                        <!-- work -->
+                        <button class="item openModal" data-modal="gyuukotu01">
+                            <div class="item-img">
+                                <img src="./works/e/gyuukotu01/item01.png" alt="">
+                                <span class="production-date"><span>2022/9/29</span></span>
+                            </div>
+                            <span class="work-name">牛骨1</span>
+                        </button>
+                        <div id="gyuukotu01" class="modal">
+                            <div class="modal-wrapper">
+                                <div class="modal-content">
+                                    <iframe src="./works/e/gyuukotu01/index.html" loading="lazy"></iframe>
+                                </div>
+                                <span class="close">CLOSE</span>
+                            </div>
+                        </div>
+                                                <!-- work -->
+                                                <button class="item openModal" data-modal="gyuukotu01">
+                                                    <div class="item-img">
+                                                        <img src="./works/e/gyuukotu01/item01.png" alt="">
+                                                        <span class="production-date"><span>2022/9/29</span></span>
+                                                    </div>
+                                                    <span class="work-name">牛骨1</span>
+                                                </button>
+                                                <div id="gyuukotu01" class="modal">
+                                                    <div class="modal-wrapper">
+                                                        <div class="modal-content">
+                                                            <iframe src="./works/e/gyuukotu01/index.html" loading="lazy"></iframe>
+                                                        </div>
+                                                        <span class="close">CLOSE</span>
+                                                    </div>
+                                                </div>
+                                                                        <!-- work -->
+                        <button class="item openModal" data-modal="gyuukotu01">
+                            <div class="item-img">
+                                <img src="./works/e/gyuukotu01/item01.png" alt="">
+                                <span class="production-date"><span>2022/9/29</span></span>
+                            </div>
+                            <span class="work-name">牛骨1</span>
+                        </button>
+                        <div id="gyuukotu01" class="modal">
+                            <div class="modal-wrapper">
+                                <div class="modal-content">
+                                    <iframe src="./works/e/gyuukotu01/index.html" loading="lazy"></iframe>
+                                </div>
+                                <span class="close">CLOSE</span>
+                            </div>
+                        </div>
+                                                <!-- work -->
+                                                <button class="item openModal" data-modal="gyuukotu01">
+                                                    <div class="item-img">
+                                                        <img src="./works/e/gyuukotu01/item01.png" alt="">
+                                                        <span class="production-date"><span>2022/9/29</span></span>
+                                                    </div>
+                                                    <span class="work-name">牛骨1</span>
+                                                </button>
+                                                <div id="gyuukotu01" class="modal">
+                                                    <div class="modal-wrapper">
+                                                        <div class="modal-content">
+                                                            <iframe src="./works/e/gyuukotu01/index.html" loading="lazy"></iframe>
+                                                        </div>
+                                                        <span class="close">CLOSE</span>
+                                                    </div>
+                                                </div>
+                                                                        <!-- work -->
+                        <button class="item openModal" data-modal="gyuukotu01">
+                            <div class="item-img">
+                                <img src="./works/e/gyuukotu01/item01.png" alt="">
+                                <span class="production-date"><span>2022/9/29</span></span>
+                            </div>
+                            <span class="work-name">牛骨1</span>
+                        </button>
+                        <div id="gyuukotu01" class="modal">
+                            <div class="modal-wrapper">
+                                <div class="modal-content">
+                                    <iframe src="./works/e/gyuukotu01/index.html" loading="lazy"></iframe>
+                                </div>
+                                <span class="close">CLOSE</span>
+                            </div>
+                        </div>
+
+                        <!-- work -->
+                        <button class="item openModal" data-modal="gyuukotu01">
+                            <div class="item-img">
+                                <img src="./works/e/gyuukotu01/item01.png" alt="">
+                                <span class="production-date"><span>2022/9/29</span></span>
+                            </div>
+                            <span class="work-name">牛骨1</span>
+                        </button>
+                        <div id="gyuukotu01" class="modal">
+                            <div class="modal-wrapper">
+                                <div class="modal-content">
+                                    <iframe src="./works/e/gyuukotu01/index.html" loading="lazy"></iframe>
+                                </div>
+                                <span class="close">CLOSE</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <a id="page-top" href="#">
+                <div>
+                    <img src="./common/image/page-top.svg" alt="">
+                </div>
+            </a>
+
+        </div>
+    </div>
+    <!------------------------------------------------------------------------------------------------->
+    <script type="module" src="./common/js/main.js" charset="utf-8"></script>
+    <script src="./common/js/text-show.js"></script>
+    <script type="module" src="./common/js/header.js" charset="utf-8"></script>
+    <script type="module" src="./common/js/Scrollbar.js" charset="utf-8"></script>
+    <script type="module" src="./common/js/vanilla-tilt.js" charset="utf-8"></script>
+    <script type="module" src="./common/js/howler.js" charset="utf-8"></script>
+    <script src="./common/js/modal.js" charset="utf-8"></script>
+    <script src="./common/js/menu.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./common/js/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            // スマートフォンでは傾きエフェクトを無効にする
+        } else {
+            VanillaTilt.init(document.querySelectorAll(".item"), {
+                max: 25,
+                speed: 400
+            });
+        }
+    </script>
+</body>
+
+</html>

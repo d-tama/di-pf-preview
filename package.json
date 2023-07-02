@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@fancyapps/ui": "^5.0.17",
+    "howler": "^2.2.3",
+    "luxy.js": "^0.1.0",
+    "progressbar.js": "^1.1.0",
+    "snd-lib": "^1.1.2"
+  }
+}
